@@ -5,6 +5,7 @@ class task2{
         int[] arr = new int[5];
         Scanner scan =new Scanner(System.in);
 
+        System.out.Println("Enter 5 numbers");
         for(int i=0;i<5;i++){
             arr[i] = scan.nextInt();
         }
